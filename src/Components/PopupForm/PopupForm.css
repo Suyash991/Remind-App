@@ -1,0 +1,65 @@
+.popup-text
+{
+ background-color: aqua;
+ width:50%;
+ 
+ margin:auto;
+}
+
+
+.container
+{
+  background-color: #ffff; 
+  width:83%;
+  margin: auto;
+  margin-top: 2em;
+  
+}
+.type-area
+{
+  padding:0.5em;
+  padding-left: 10%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.input-area-textbox
+{
+
+height: 5em;
+margin: 1em;
+font-size: 1.5em;
+text-align:justify;
+padding-left: 1em;
+}
+.title
+{
+    height: 3em;
+}
+.btn-submit-task
+{
+    width: 10em;
+  height: 4em;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 1em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  background-color: #eee;
+  color: rgba(2, 18, 18, 0.729);
+}
+.popup
+{
+  position: fixed;
+  background-color: rgba(39, 31, 23,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  left:0;
+  right:0;
+  top:0;
+  bottom: 0;
+  z-index: 1000;
+}
